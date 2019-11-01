@@ -1,0 +1,41 @@
+* {
+  font-family: 'Work Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  min-height: 70vh;
+  padding: 3em;
+  transition: all 1s ease-out;
+}
+
+.deel {
+  padding: 30vh 3em;
+  background-color: aliceblue;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 3em;
+  color: rgba(255,255,255,0.7);
+  text-shadow: 0 0 3px grey;
+  overflow-x: hidden;
+}
+
+.accent {
+  color: dodgerblue;
+  font-size: 4em;
+  background-color: orange;
+}
+
+/* achtergrond afbeeldingen */
+.deel--2 {
+  background-image: url(images/alexander-popov-3InMDrsuYrk-unsplash.jpg) ;
+}
+
+.deel--4 {
+  background-image: url(images/greg-rakozy-0LU4vO5iFpM-unsplash.jpg);
+}
+
+.deel--6 {
+  background-image: url(images/nasa-Q1p7bh3SHj8-unsplash.jpg);
+}
