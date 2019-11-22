@@ -1,16 +1,16 @@
-function verwerkScrollEvent() {
-  let scrollWaarde = this.pageYOffset;
-  console.log(scrollWaarde);
-  pasDelenAan(scrollWaarde)
+function processedScrollEvent() {
+  let scrollWorth = this.pageYOffset;
+  console.log(scrollWorth);
+  pasDelenAan(scrollWorth)
 
-  if (scrollWaarde > 1500) {
+  if (scrollWorth > 1500) {
     voegClassToe();
   } else {
     verwijderClass();
   }
 }
 
-window.addEventListener('scroll', verwerkScrollEvent);
+window.addEventListener('scroll', processedScrollEvent);
 
 function pasDelenAan(getal) {
   document.getElementsByClassName('deel--2')[0].style.backgroundPositionY = -getal/14 + 'px';
